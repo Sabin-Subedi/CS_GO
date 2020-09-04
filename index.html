@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSGo</title>
+    <!-- FontAwesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/top_nav.css" />
+  </head>
+  <body>
+    <header class="navbars">
+      <div class="col-2 col-md-1 side-bar">
+        <div class="logo mt-3 mb-3 border-secondary border-bottom">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <ul class="sidebar-item">
+          <li><i class="fas fa-suitcase"></i></li>
+          <li><i class="fal fa-fire"></i></li>
+          <i class="fas fa-power-off power"></i>
+        </ul>
+      </div>
+      <div class="container col-10 col-md-11 top-nav ml-auto">
+        <nav
+          class="navbar ml-5 navbar-expand-lg border-bottom border-secondary"
+        >
+          <a class="navbar-brand text-white font-weight-bold" href="#"
+            >CS LoadOut</a
+          >
+        </nav>
+      </div>
+      <div class="top-nav-items col-10 col-md-11 ml-auto">
+        <div class="container-fluid">
+          <nav class="navbar">
+            <ul
+              class="navbar-nav flex-row justify-content-between overflow-auto"
+            >
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white current" href="#">Pistol</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">SMG</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Heavy</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Melee</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Gloves</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Rifle</a>
+              </li>
+              <li class="nav-item mr-3 dropdown">
+                <a class="nav-link text-white" href="#"> Agents </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="guns-section col-10 col-md-11 ml-auto mb-5">
+      <div class="container-fluid">
+        <div class="border border-secondary bg-black box">
+          <div class="guns-section-main d-flex flex-column flex-lg-row">
+            <div
+              class="cirlce border-lg-right border-secondary col-12 col-lg-6"
+            >
+              <div class="radio-buttons">
+                <input
+                  type="radio"
+                  id="anti-terrorist"
+                  name="gender"
+                  value="anti-terrorist"
+                  checked="checked"
+                  onclick="changeLogo()"
+                />
+                <label for="anti-terrorist"
+                  ><img src="./Images/Image 1.svg" alt=""
+                /></label>
+                <input
+                  type="radio"
+                  id="terrorist"
+                  name="gender"
+                  value="terrorist"
+                  onclick="changeLogo()"
+                />
+                <label for="terrorist"
+                  ><img src="./Images/hiclipart.com.png" alt=""
+                /></label>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="150 150 900 800"
+                class="circle-dimensions justify-self-center"
+              >
+                <g
+                  id="Group_96"
+                  data-name="Group 96"
+                  transform="translate(-6318.341 2547.427)"
+                >
+                  <g
+                    id="Component_5_55"
+                    data-name="Component 5 – 55"
+                    transform="translate(6575.404 -2497.763)"
+                  >
+                    <path
+                      id="Path_5"
+                      class="circle__elements"
+                      data-name="Path 5"
+                      d="M493.431,1046.151l.7-389.707L155.493,851.8l11.132,17.955,19.033,25.5,16.519,19.392L218.7,932.6l18.673,16.878,15.442,12.569,19.751,15.082,20.828,12.928,16.519,9.337,22.624,10.773L353,1018.422l14.364,5.387,17.237,5.746,17.6,5.027,11.132,2.514,12.569,2.514,16.519,2.514,7.691,1.012,12.052,1.488,6.547.71,4.349.245,16.024.572Z"
+                      transform="translate(1153.058 388.415) rotate(120)"
+                      fill="rgba(0,0,0,0.35)"
+                    />
+                    <image
+                      class="image-logo"
+                      href="./Images/circle/1.png"
+                      height="200"
+                      width="200"
+                      transform="translate(100 200) "
+                    />
+                  </g>
+                  <g
+                    id="Component_5_56"
+                    data-name="Component 5 – 56"
+                    transform="translate(7172.066 -2547.427) rotate(60)"
+                    class="circle__guns"
+                  >
+                    <path
+                      id="Path_5-2"
+                      class="circle__elements"
+                      data-name="Path 5"
+                      d="M493.431,1046.151l.7-389.707L155.493,851.8l11.132,17.955,19.033,25.5,16.519,19.392L218.7,932.6l18.673,16.878,15.442,12.569,19.751,15.082,20.828,12.928,16.519,9.337,22.624,10.773L353,1018.422l14.364,5.387,17.237,5.746,17.6,5.027,11.132,2.514,12.569,2.514,16.519,2.514,7.691,1.012,12.052,1.488,6.547.71,4.349.245,16.024.572Z"
+                      transform="translate(1153.058 388.415) rotate(120)"
+                      fill="rgba(0,0,0,0.35)"
+                    />
+                    <image
+                      class="image-logo"
+                      href="./Images/circle/2.png"
+                      height="250"
+                      width="250"
+                      transform="translate(80 150) "
+                    />
+                  </g>
+                  <g
+                    id="Component_5_57"
+                    data-name="Component 5 – 57"
+                    transform="translate(7514.473 -2054.366) rotate(120)"
+                  >
+                    <path
+                      id="Path_5-3"
+                      class="circle__elements"
+                      data-name="Path 5"
+                      d="M493.431,1046.151l.7-389.707L155.493,851.8l11.132,17.955,19.033,25.5,16.519,19.392L218.7,932.6l18.673,16.878,15.442,12.569,19.751,15.082,20.828,12.928,16.519,9.337,22.624,10.773L353,1018.422l14.364,5.387,17.237,5.746,17.6,5.027,11.132,2.514,12.569,2.514,16.519,2.514,7.691,1.012,12.052,1.488,6.547.71,4.349.245,16.024.572Z"
+                      transform="translate(1153.058 388.415) rotate(120)"
+                      fill="rgba(0,0,0,0.35)"
+                    />
+
+                    <image
+                      class="image-logo"
+                      href="./Images/circle/3.png"
+                      height="200"
+                      width="200"
+                      transform="translate(200 400) rotate(240)"
+                    />
+                  </g>
+                  <g
+                    id="Component_5_58"
+                    data-name="Component 5 – 58"
+                    transform="translate(7256.814 -1512.879) rotate(-180)"
+                  >
+                    <path
+                      id="Path_5-4"
+                      class="circle__elements"
+                      data-name="Path 5"
+                      d="M493.431,1046.151l.7-389.707L155.493,851.8l11.132,17.955,19.033,25.5,16.519,19.392L218.7,932.6l18.673,16.878,15.442,12.569,19.751,15.082,20.828,12.928,16.519,9.337,22.624,10.773L353,1018.422l14.364,5.387,17.237,5.746,17.6,5.027,11.132,2.514,12.569,2.514,16.519,2.514,7.691,1.012,12.052,1.488,6.547.71,4.349.245,16.024.572Z"
+                      transform="translate(1153.058 388.415) rotate(120)"
+                      fill="rgba(0,0,0,0.35)"
+                    />
+                    <image
+                      class="image-logo"
+                      href="./Images/circle/4.png"
+                      height="250"
+                      width="250"
+                      transform="translate(340 400) rotate(180)"
+                    />
+                  </g>
+                  <g
+                    id="Component_5_59"
+                    data-name="Component 5 – 59"
+                    transform="translate(6659.748 -1464.453) rotate(-120)"
+                  >
+                    <path
+                      id="Path_5-5"
+                      class="circle__elements"
+                      data-name="Path 5"
+                      d="M493.431,1046.151l.7-389.707L155.493,851.8l11.132,17.955,19.033,25.5,16.519,19.392L218.7,932.6l18.673,16.878,15.442,12.569,19.751,15.082,20.828,12.928,16.519,9.337,22.624,10.773L353,1018.422l14.364,5.387,17.237,5.746,17.6,5.027,11.132,2.514,12.569,2.514,16.519,2.514,7.691,1.012,12.052,1.488,6.547.71,4.349.245,16.024.572Z"
+                      transform="translate(1153.058 388.415) rotate(120)"
+                      fill="rgba(0,0,0,0.35)"
+                    />
+                    <image
+                      class="image-logo"
+                      href="./Images/circle/5.png"
+                      height="200"
+                      width="200"
+                      transform="translate(330 210) rotate(120)"
+                    />
+                  </g>
+                  <g
+                    id="Component_5_60"
+                    data-name="Component 5 – 60"
+                    transform="translate(6318.341 -1956.513) rotate(-60)"
+                  >
+                    <path
+                      id="Path_5-6"
+                      class="circle__elements"
+                      data-name="Path 5"
+                      d="M493.431,1046.151l.7-389.707L155.493,851.8l11.132,17.955,19.033,25.5,16.519,19.392L218.7,932.6l18.673,16.878,15.442,12.569,19.751,15.082,20.828,12.928,16.519,9.337,22.624,10.773L353,1018.422l14.364,5.387,17.237,5.746,17.6,5.027,11.132,2.514,12.569,2.514,16.519,2.514,7.691,1.012,12.052,1.488,6.547.71,4.349.245,16.024.572Z"
+                      transform="translate(1153.058 388.415) rotate(120)"
+                      fill="rgba(0,0,0,0.35)"
+                    />
+                  </g>
+                </g>
+                <image
+                  id="image-logo"
+                  href="./Images/Image 1.svg"
+                  height="200"
+                  width="200"
+                  transform="translate(500 450)"
+                />
+              </svg>
+            </div>
+            <div class="gun-grid col-12 col-lg-6">
+              <div class="input-section">
+                <input
+                  class="bg-transparent search my-3"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <span class="sort-text"
+                  >Alphabetical <i class="fal fa-chevron-down"></i
+                ></span>
+              </div>
+              <div class="gun_items overflow-auto">
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image mb-0 pb-0">
+                    <img src="./images/guns/gun.svg" alt="" />
+                  </div>
+                  <div class="card-body mx-0 px-0 my-0 pt-0">
+                    <p>Dual Breates</p>
+                    <p>Global Strikes</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="buttons d-flex width-fit-content align-items-center justify-content-end"
+              >
+                <button
+                  class="btn border border-white text-white rounded-0 font-weight-bold"
+                >
+                  Total : <span class="text-danger">$194</span>
+                </button>
+                <button
+                  class="btn border border-white text-white rounded-0 buy"
+                >
+                  Buy LoadOut
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
